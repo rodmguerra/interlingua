@@ -1,0 +1,191 @@
+body {
+	font-family: 'Quicksand', serif;
+}
+
+header {
+	color: #EEEEEE;
+	background: #555555;
+	padding: 0.5em 0;
+}
+
+h1 {
+	color: #EEEEEE;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 em {
+	color: #66AAEE;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-top: 0.8em;
+}
+
+nav li {
+	display: inline;
+	color: #EEEEEE;	
+	margin-right: 1em;
+}
+
+nav a {
+	color: #EEEEEE;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #66AAEE;	
+	text-decoration: none;
+}
+
+main {
+	padding: 1.5em;
+	background: #AAAAAA;
+	padding-top: 0.5em;
+	height: 100%;	
+}
+
+.paper {
+	margin: 0 auto;
+	background: #FAFAFA;
+	padding: 2em;
+	margin: auto;
+	max-width: 800px;
+	font-family: 'Rokkitt', serif;
+}
+
+.paper a {
+	font-family: 'Quicksand', serif;
+	color: #66AAEE;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+
+
+.summary {
+	font-family: 'Quicksand', serif;
+}
+
+
+nav a:hover {
+	color: #66AAEE;	
+	text-decoration: none;
+}
+
+.normal-list li:before {
+	content: "📚  ";
+}
+
+.normal-list li {
+	margin-top: 1em;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.5em;	
+}
+
+.info {
+	margin-top: 0.5em;
+}
+
+.info li {
+	margin-top: 0.2em;
+	font-weight: bold;
+	color: #AAAAAA;
+}
+
+.summary {
+	margin-top: 0.5em;
+}
+
+.translation-pair {
+	display: inline-block; 
+	/*border: solid;*/
+	margin: 2em 0 0 0; 
+	vertical-align: top;
+	width: 300px;
+	/*border-style: solid;
+	border-width: 1px;*/
+}
+
+.translation {
+	display: inline-block; 
+	/*border: solid;*/
+	margin: 2em auto 0 0; 
+	vertical-align: top;
+	text-align: justify;
+	/*border-style: solid;
+	border-width: 1px;*/
+}
+
+h3 {
+	font-weight: bold;
+	display: inline;
+	font-family: 'Quicksand', serif;
+}
+
+.language-name {
+	text-align: center;
+	display: inline;
+	font-size: 0.8em;
+	vertical-align: baseline;
+}
+
+/*
+.language-name:before {
+	vertical-align: text-top;
+	font-size: 0.8em;
+	content: "[";
+
+}
+
+.language-name:after {
+	vertical-align: text-top;
+	font-size: 0.8em;
+	content: "]";
+
+}
+*/
+.content {
+	font-family: 'Rokkitt', serif;
+	margin-top: 1em;
+	font-size: 1.2em;
+}
+
+.content p {
+	margin-top: 1em;
+}
+
+.float-right-image {
+	width: 400px;
+	float: right;
+	margin: 0 0 1em 1em;	
+}
+
+
+@media screen and (max-width: 600px) {
+
+	nav {
+		position: relative;
+		padding-top: 0.8em;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+	.float-right-image {
+		float: none;
+		width: 300px;
+		margin: 0 auto;
+		display: block;
+	}
+}
