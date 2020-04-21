@@ -157,7 +157,8 @@ h3 {
 .content {
 	font-family: 'Rokkitt', serif;
 	margin-top: 1em;
-	font-size: 1.2em;
+	font-size: 1.4em;
+	line-height: 1.2em;
 }
 
 .content p {
@@ -165,7 +166,7 @@ h3 {
 }
 
 .float-right-image {
-	width: 400px;
+	width: 420px;
 	float: right;
 	margin: 0 0 1em 1em;	
 }
