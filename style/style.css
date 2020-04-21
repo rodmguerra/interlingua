@@ -197,15 +197,29 @@ h3 {
 		display: block;
 	}
 
+	main {
+		padding: 0.5em;
+	}
+
+	.paper {
+		padding: 0.8em;
+	}
+
+
 }
 
 @media screen and (max-width: 400px) {
 
 	.float-right-image {
 		float: none;
-		width: 200px;
+		width: 250px;
 		margin: 0 auto;
 		display: block;
+	}
+
+	.paper {
+		max-width: 90%;
+		width: 90%;
 	}
 
 }
