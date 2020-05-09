@@ -19,6 +19,16 @@ h1 em {
 	color: #66AAEE;
 }
 
+.index-title {
+	font-family: 'Quicksand', serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.index-title em {
+	color: #2288DD;
+}
+
 nav {
 	position: absolute;
 	right: 0;
@@ -61,12 +71,28 @@ main {
 
 .paper a {
 	font-family: 'Quicksand', serif;
-	color: #66AAEE;
+	color: #2288DD;
 	font-weight: bold;
 	text-decoration: none;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 
+.paper a:hover {
+	font-family: 'Quicksand', serif;
+	color: #555555;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.paper ol {
+	list-style-type: decimal;
+	padding-left: 2em;
+	padding-top: 0.5em;
+}
+
+.paper ol li {
+	display: list-item;
+}
 
 
 .summary {
@@ -102,6 +128,12 @@ h2 {
 	color: #AAAAAA;
 }
 
+p.info {
+	margin-top: 0.5em;
+	font-weight: bold;
+	color: #AAAAAA;
+}
+
 .summary {
 	margin-top: 0.5em;
 }
@@ -119,7 +151,7 @@ h2 {
 .translation {
 	display: inline-block; 
 	/*border: solid;*/
-	margin: 2em auto 0 0; 
+	margin: 0 auto; 
 	vertical-align: top;
 	text-align: justify;
 	/*border-style: solid;
@@ -172,6 +204,26 @@ h3 {
 }
 
 
+
+.word-list th, .word-list td {
+	border-style: solid;
+	border-width: 1px;
+	padding: 0 0.4em;
+
+}
+
+.word-list th {
+	font-weight: bold;
+}
+
+.word-list {
+	margin: 0 auto;
+	font-size: 0.8em;
+	margin-top: 1em;
+	min-width: 400px;
+	max-width: 90%;
+
+}
 
 
 @media screen and (max-width: 700px) {
