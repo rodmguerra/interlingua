@@ -227,6 +227,13 @@ h3 {
 
 
 @media screen and (max-width: 700px) {
+
+	nav {
+		position: relative;
+		padding-top: 0.8em;
+		text-align: center;
+	}
+
 	.float-right-image {
 		float: none;
 		width: 350px;
@@ -237,11 +244,7 @@ h3 {
 
 @media screen and (max-width: 600px) {
 
-	nav {
-		position: relative;
-		padding-top: 0.8em;
-		text-align: center;
-	}
+
 
 	.float-right-image {
 		float: none;
