@@ -221,7 +221,7 @@ h3 {
 	font-size: 0.8em;
 	margin-top: 1em;
 	min-width: 400px;
-	max-width: 90%;
+	max-width: 95%;
 
 }
 
@@ -262,6 +262,12 @@ h3 {
 	}
 
 
+	.word-list {
+		font-size: 0.6em;
+		min-width: 250px;
+
+	}
+
 }
 
 @media screen and (max-width: 400px) {
@@ -276,6 +282,13 @@ h3 {
 	.paper {
 		max-width: 90%;
 		width: 90%;
+	}
+
+
+	.word-list {
+		font-size: 0.5em;
+		min-width: 250px;
+
 	}
 
 }
